@@ -283,9 +283,9 @@ menu:active{
 .about_us_content{
     letter-spacing: 0.02em;
 }
-
-.about_us  li{
-    width: calc((100% - 72px) / 4);
+/*burası*/
+.about_us_list{
+    width: calc(100% - 72px);
 }
 
 /*OUR TEAM*/
@@ -303,7 +303,6 @@ menu:active{
 }
 .our-team{
     display: flex;
-    flex-wrap:wrap;
     margin-top: 72px;
     gap: 24px;
     
@@ -317,9 +316,6 @@ menu:active{
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-
-
 .our_team_list:last-child{
     margin-right: 0;
 }
@@ -346,37 +342,35 @@ menu:active{
     background-color: #ffffff;
     text-align: center;
 }
-/*.member-info-social-icon-container .member-info-social-icon-item{
+/*7*/
+.our-social-icon-container-list .our-social-icon-item{
     background-color: #4D5AE5;
     border-radius: 50%;
     display: flex;
     display: inline-block;
     justify-content:center;
-    align-items: center;
-    margin-block: 40px auto;
+    align-self: center;
+    margin-block: 16px auto;
     width: 40px;
     height: 40px;
     gap: 24px;
 }
-.member-info-social-icon-item {
+our-info-social-icon-item {
     text-align:center;
-    justify-content: center;
     padding: 10px;
 }
-
-
-.member-info-social-icon-item{
+.our-social-icon-container{
     display: flex;
     justify-content: center;
     align-items:  center; 
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1); 
-    padding : 32px 0;
-   
-}*/
+    padding : 16px 0; 
+    margin: bottom 10px;
+} 
+/*7*/
 .our-social-icon-container{
-    display: flex;
-   
+    display: flex;   
     justify-content: center;
     align-items: center;
     gap:24px;
