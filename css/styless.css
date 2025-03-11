@@ -289,8 +289,10 @@ menu:active{
 }
 
 /*OUR TEAM*/
-.our_team-section{
+.our-team-section{
     background-color: #F4F4FD;
+    margin-inline: auto;
+    text-align:center;
     padding: 120px 0;
 }
 .our_team_title{
@@ -303,12 +305,16 @@ menu:active{
 }
 .our-team{
     display: flex;
-    margin-top: 72px;
+    display:inline-flex;
+    justify-content: center;
+    flex-wrap: row;
+    width: calc((100%-72px)/4);
     gap: 24px;
-    
+     
 }
 .our_team_list{
     background-color: #FFFFFF;
+    justify-content: center;
     text-align: center;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
@@ -316,7 +322,7 @@ menu:active{
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.our_team_list:last-child{
+.our_team_list:first-child{
     margin-right: 0;
 }
 .our_team_sub_title{
@@ -325,7 +331,7 @@ menu:active{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    margin-bottom:8px;
+    margin-bottom: 8px;
 }
 .our-team-box{
     padding : 32px 0 ;
@@ -333,7 +339,8 @@ menu:active{
 .our_team_content{
     font-size: 16px;
     letter-spacing: 0.02em;
-    text-align: center;
+    justify-content: center;
+    text-alignal: center;
 }
 .our_team ul {
     list-style: none outside none;
@@ -342,8 +349,8 @@ menu:active{
     background-color: #ffffff;
     text-align: center;
 }
-/*7*/
-.our-social-icon-container-list .our-social-icon-item{
+
+.our-social-icon-container-list > .our-social-icon-item{
     background-color: #4D5AE5;
     border-radius: 50%;
     display: flex;
@@ -355,7 +362,7 @@ menu:active{
     height: 40px;
     gap: 24px;
 }
-our-info-social-icon-item {
+.our-info-social-icon-item {
     text-align:center;
     padding: 10px;
 }
@@ -368,7 +375,7 @@ our-info-social-icon-item {
     padding : 16px 0; 
     margin: bottom 10px;
 } 
-/*7*/
+
 .our-social-icon-container{
     display: flex;   
     justify-content: center;
@@ -486,7 +493,7 @@ our-info-social-icon-item {
     display: flex; 
     flex-direction: row;
     align-items: baseline;
-    margin: 120px;  
+    margin: bottom 120px ;  
 }
 .footer-information{
     font-weight: 500;
