@@ -397,7 +397,19 @@
                     </a>
                 </li>    
                    </ul> 
-            </div>      
+            </div> 
+            <div class="subscribe">
+                <p>Subsscribe</p>
+                <div>
+                    <input type="email" class="footer-email"
+                    placeholder="E-mail"/>
+                    <button type="submit" class="footer-button">
+                        Subscribe<svg class="icon-send">
+                            <use href="./images/symbol-defs.svg#icon-frame"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>     
         </div>         
     </footer>
 
@@ -439,16 +451,21 @@
             </div>
             <div class="input-group">
                 <label for="textarea-label">Comment</label>
-                <textarea name="comment" id="comment" 
-                class="comment" placeholder="Text Input" >
-            </textarea>  
+                <textarea 
+                name="comment"
+                id="comment" 
+                class="comment" 
+                placeholder="Text Input"
+                ></textarea>  
             </div>
-            <div class="input-group">
+            <div class="consent-container">
                 <input type="checkbox" name="checkbox" id="consent" class="conseny"/>
-                <label for="consent">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+                <label for="consent">
+                I accept the terms and conditions of the 
+                <a href="">Privacy Policy</a></label>
            </div>
            <div class="button-container">
-                <button type="submiy" name="send" 
+                <button type="submit" name="send" 
                 class="send">send</button>          
            </div>
         </form>
