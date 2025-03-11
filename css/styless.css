@@ -291,9 +291,9 @@ menu:active{
 /*OUR TEAM*/
 .our-team-section{
     background-color: #F4F4FD;
-    margin-inline: auto;
+    justify-content: center;
     text-align:center;
-    padding: 120px 0;
+    margin-top: bottom 120px;
 }
 .our_team_title{
     line-height: 1.11;
@@ -573,4 +573,109 @@ menu:active{
     width: 40px;
     height: 40px;
 }
+/*MODAL*/
+.modal{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
 
+
+}
+
+.modal .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #2E2F42;
+    opacity: 0.4;
+}
+.is-open {
+    display: none;
+}
+.modal .modal-form{
+    position: relative;
+    width: 408px;
+    height: 584px;
+    z-index: 2;
+    background-color: #fcfcfc;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 24px;
+
+}
+.modal .modal-form .close{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    color: #fcfcfc;
+    top:120px;
+    left: 540px;
+    justify-content: end;
+}   
+.modal .modal-form .modal-title{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+.modal .modal-form .input-group{
+    margin-top: 8px;
+
+
+} 
+.modal .modal-form .input-group label{
+    color: #8e8f99;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+
+    
+}
+.modal .modal-form .input-group .input-container{
+    border-radius: 4px;
+    height: 40px;
+    border:1px solid #2e2f42;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 16px;
+    
+}
+.modal .modal-form .input-group
+ .input-container .icon{
+    width: 12px;
+    height: 12px;   
+}
+.modal .modal-form .input-group
+ .input-container:focus-within .icon{
+    fill:#4D5AE5; 
+}
+.modal .modal-form .input-group .input-container:focus-within {
+    border: 2px solid #4D5AE5; 
+}
+.modal .modal-form .input-group
+ .input-container input{
+    width: 100%;
+    border: none;
+    outline: none;  
+}
+.modal .modal-form .input-group
+ .comment:focus-within{
+   color: #8e8f99;
+   width: 100%;
+   resize:none;
+   height: 120px; 
+   padding: 8px;
+}
+.modal .modal-form .input-group
+ .comment:focus-within{
+   border: 1px solid #4d5ae5;
+}
