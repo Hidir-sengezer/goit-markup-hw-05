@@ -307,7 +307,7 @@ menu:active{
     display: flex;
     display:inline-flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     width: calc((100%-72px)/4);
     gap: 24px;
      
@@ -538,7 +538,7 @@ menu:active{
     display: flex;
     gap:16px;
 }
-.footer-information-team-list,
+.footer-information-team-list
 .footer-information-team-list-text{
     display: flex;
     align-items: center;
@@ -548,7 +548,7 @@ menu:active{
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-information-team-list, 
+.footer-information-team-list
 .footer-information-team-list-text:hover,
 .footer-information-team-list-text:focus{
     background-color: #31d0aa;}
@@ -573,15 +573,14 @@ menu:active{
     height: 40px;
 }
 .footer .subscribe{
-    display: flex;
+    display: flex;;
     justify-content: center;
     align-items: center;
-    margin-inline-end: 16px;
     gap:16px;
 }
 
 .footer .subscribe > p {
-   
+
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
@@ -705,8 +704,7 @@ menu:active{
     gap: 4px;
     padding: 8px 16px;
 }
-.modal .modal-form .input-group
- .input-container .icon{
+.iconA{
     width: 12px;
     height: 12px;   
 }
