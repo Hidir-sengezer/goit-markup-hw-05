@@ -293,7 +293,7 @@ menu:active{
     background-color: #F4F4FD;
     justify-content: center;
     text-align:center;
-    margin-top: bottom 120px;
+    margin-top: 120px;
 }
 .our_team_title{
     line-height: 1.11;
@@ -307,7 +307,7 @@ menu:active{
     display: flex;
     display:inline-flex;
     justify-content: center;
-    flex-wrap: row;
+    flex-wrap: wrap;
     width: calc((100%-72px)/4);
     gap: 24px;
      
@@ -340,7 +340,7 @@ menu:active{
     font-size: 16px;
     letter-spacing: 0.02em;
     justify-content: center;
-    text-alignal: center;
+    text-align: center;
 }
 .our_team ul {
     list-style: none outside none;
@@ -481,7 +481,7 @@ menu:active{
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
-.portfolio-content{
+.portfolio-content{ 
     letter-spacing: 0.02em;
 }
 /*FOOTER*/
@@ -538,7 +538,7 @@ menu:active{
     display: flex;
     gap:16px;
 }
-.footer-information-team-list 
+.footer-information-team-list,
 .footer-information-team-list-text{
     display: flex;
     align-items: center;
@@ -582,7 +582,7 @@ menu:active{
 
 .footer .subscribe > p {
    
-    font-size:  16px;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
     text-align: left;
