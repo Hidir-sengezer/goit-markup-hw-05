@@ -23,7 +23,7 @@ body{
     font-size:16px;
     line-height: 1.5;
     background-color: #ffffff;
-    margin:0;
+    margin: 0;
 }
 h1{
     font-weight: bold;
@@ -494,7 +494,7 @@ menu:active{
     flex-direction: ro;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: top 120px ;  
+    margin-bottom: 120px ;  
 }
 .footer-information{
     font-weight: 500;
